@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ester2orca"
+version = "0.1.0"
+description = ""
+authors = ["Ukhatov Alexander <alexander.ukhatov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.1"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
